@@ -2,7 +2,7 @@ package com.company;
 
 public class Main {
     public static void main(String[] args) {
-        getRoots(0, 0, 1);
+        getRoots(0, 2, 5);
     }
 
     //ищем дискриминант
@@ -33,7 +33,7 @@ public class Main {
                     System.out.println("Решением является любое число");
                 }
             } else {
-                double x1 = (double) -c / b;
+                double x1 = ((double) -c) / b;
                 System.out.println("Уровнение имеет один корень, x = " + x1);
             }
 
